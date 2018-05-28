@@ -26,7 +26,7 @@
     <datasource jndi-name="java:jboss/datasources/smosDS"
         pool-name="jboss-javaee-webapp" enabled="true"
         use-java-context="true">
-        <connection-url>jdbc:mysql://smos:3306/mysqldb</connection-url>
+        <connection-url>jdbc:mysql://mysql:3306/mysqldb</connection-url>
         <driver>mysql</driver>
         <security>
             <user-name>user2NN</user-name>
